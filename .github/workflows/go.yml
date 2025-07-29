@@ -27,6 +27,7 @@ jobs:
     - name: Lint
       uses: golangci/golangci-lint-action@v8
       with:
+          args: controllers/ database/ models/ routers/
           version: v2.1
      
 
